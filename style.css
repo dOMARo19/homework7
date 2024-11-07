@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+.blok,
+.inline {
+    border: 1px solid black;
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+}
+.blok {
+    background-color: blue;
+}
+.inline {
+    background-color: yellow;
+}
+.block { 
+    display: block; 
+    background-color: lightblue; 
+    margin: 10px; 
+    padding: 10px; 
+} 
+.inline { 
+    display: inline; 
+    background-color: lightcoral; 
+    margin: 10px; 
+    padding: 10px; 
+} 
+.flex-container { 
+    display: flex; 
+    background-color: lightgreen; 
+    margin: 10px; 
+    padding: 10px; 
+    border: 2px solid black; 
+} 
+.flex-item { 
+    background-color: yellow; 
+    margin: 5px; 
+    padding: 10px; 
+} 
+.box-sizing-content-box { 
+    box-sizing: content-box; 
+    width: 200px; 
+    height: 100px; 
+    padding: 20px; 
+    border: 10px solid red; 
+    background-color: lightgray; 
+} 
+.box-sizing-border-box { 
+    box-sizing: border-box; 
+    width: 200px; 
+    height: 100px; 
+    padding: 20px; 
+    border: 10px solid blue; 
+    background-color: lightyellow; 
+}
+.container { 
+    width: 100%; 
+    border: 1px solid #000; 
+}
+ .float-left {
+     float: left;
+     width: 30%; 
+     background-color: lightblue; 
+     margin: 10px; 
+     padding: 10px; 
+    }
+.float-right { 
+    float: right; 
+    width: 30%; 
+    background-color: lightgreen; 
+    margin: 10px; 
+    padding: 10px; 
+} 
+.clear-both { 
+    clear: both; 
+    background-color: lightcoral; 
+    padding: 10px; 
+    margin: 10px; 
+}
+.container { 
+    width: 300px; 
+    height: 200px; 
+    border: 2px solid black; 
+    margin: 20px; padding: 10px; 
+    overflow: auto;  
+} 
+.content { 
+    width: 500px; 
+    height: 400px; 
+    background-color: lightblue; 
+}
+.static { 
+    position: static; 
+    background-color: lightblue; 
+    padding: 10px; 
+    margin: 10px; 
+} 
+.relative { 
+    position: relative; 
+    top: 20px; 
+    left: 20px; 
+    background-color: lightcoral; 
+    padding: 10px; 
+    margin: 10px; 
+} 
+.absolute-container { 
+    position: relative; 
+    height: 200px; 
+    border: 1px solid black; 
+    background-color: lightgray; 
+} 
+.absolute { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    background-color: lightgreen; 
+    padding: 10px; 
+    margin: 10px; 
+} 
+.fixed { 
+    position: fixed; 
+    top: 10px; 
+    right: 10px; 
+    background-color: yellow; 
+    padding: 10px; 
+    margin: 10px; 
+} 
+.sticky { 
+    position: -webkit-sticky; /* для підтримки в Safari */ 
+    position: sticky; 
+    top: 0; 
+    background-color: orange; 
+    padding: 10px; 
+    margin: 10px; 
+} 
+.content { 
+    height: 1000px; 
+    background-color: lightpink; 
+}
